@@ -2,8 +2,7 @@
 
 .containerDiv div  {
     border: 1px solid black;
-    height: 60px;
-    width: 60px;
+    gap: 0px;
     
 }
 
@@ -11,4 +10,6 @@
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
+    width: 100vw;
+    height: 100vh;
 }
